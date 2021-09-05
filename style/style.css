@@ -1,0 +1,61 @@
+
+
+#info{
+  background-color:#444444;
+  color:white;
+  float:left;
+  text-shadow: -1px 1px 0 #000,
+              1px 1px 0 #000,
+             1px -1px 0 #000,
+            -1px -1px 0 #000;
+  width:100%;
+  text-align: center;
+vertical-align: middle;
+line-height: 90px;
+}
+
+#game{
+  width:60%;
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+}
+#canv{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+  background-color:#444444;
+}
+
+#hint{
+  position: absolute;
+  top:90px;
+  left:35vw;
+  color:white;
+  text-shadow: -1px 1px 0 #000,
+              1px 1px 0 #000,
+             1px -1px 0 #000,
+            -1px -1px 0 #000;
+  font-size:20Px;
+}
+
+
+
+
+
+#moving_B{
+  animation: wiggle 2.5s active infinite ease-in-out;
+}
+
+
+@keyframes wiggle {
+    from {
+        margin-top:0px;
+    }
+    to {
+        margin-top:10px;
+    }
+}
